@@ -95,7 +95,7 @@ function exeCommand(cmd) {
             cwd: workingDir,
             stdio: 'inherit',
             windowsVerbatimArguments: true, // Super Weird, https://github.com/nodejs/node/issues/5060
-            shell: isWindowsAndHasSpace,
+            shell: true,
         });
 
         child.on('close', code => {
