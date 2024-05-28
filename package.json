@@ -1,25 +1,26 @@
 {
-  "name": "node-flywaydb",
-  "version": "3.0.7",
+  "name": "@neilbhad/node-flywaydb",
+  "version": "3.0.8",
   "description": "NodeJs wrapper for flywaydb cli",
   "main": "index.js",
   "bin": {
-    "flyway": "./bin/flyway.js"
+    "flyway": "bin/flyway.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/markgardner/node-flywaydb.git"
+    "url": "git+https://github.com/nbhadsav/node-flywaydb.git"
   },
   "keywords": [
     "flyway",
-    "flywaydb"
+    "flywaydb",
+    "node flyway"
   ],
-  "author": "Mark Gardner",
+  "author": "Neil Bhadsavle",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/markgardner/node-flywaydb/issues"
+    "url": "https://github.com/nbhadsav/node-flywaydb/issues"
   },
-  "homepage": "https://github.com/markgardner/node-flywaydb#readme",
+  "homepage": "https://github.com/nbhadsav/node-flywaydb#readme",
   "dependencies": {
     "commander": "^5.0.0",
     "extract-zip": "^2.0.0",
@@ -30,5 +31,11 @@
   },
   "devDependencies": {
     "eslint": "^6.8.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
